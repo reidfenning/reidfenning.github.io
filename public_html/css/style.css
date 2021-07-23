@@ -1,0 +1,105 @@
+html, body {
+    scroll-behavior: smooth;
+    background-color: #DDC077;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.main-heading {
+    font-family: Corbel;
+    font-weight: bold;
+}
+
+#h1{
+    font-size: 4.5rem
+}
+
+.navbar {
+    font-weight: bold;
+    background-color: #4A545D;
+    padding: 1rem;
+    opacity: .75;
+}
+
+.navbar-toggler {
+    background-color: #ffffc7;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-name {
+    color: white;
+}
+
+.nav-link {
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+
+.nav-link:hover, .navbar-name:hover {
+    text-decoration: none;
+    transition: .3s;
+    color: yellow;
+}
+
+.btn:hover {
+    text-decoration: none;
+    transition: .3s;
+    border: 1px solid #4A545D;
+}
+
+#header {
+    position: relative;
+    padding-top: 7rem;
+}
+
+.usta-list {
+    text-align: left;
+}
+
+#usta-logo {
+    height: auto;
+    width: 20rem;
+}
+
+.fa-code {
+    color: DC7726;
+}
+
+#about, #portfolio {
+    background-color: #DC7726;
+    color: black;
+}
+
+#this-dang-this-screwed-me {
+    background-color: #4A545D;
+    padding: 4rem 0;
+}
+
+.img-thumbnail {
+    height: auto;
+    width: 30rem;
+}
+
+.bg-light {
+    max-width: 38rem;
+}
+
+.g-recaptcha {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+/*COLORS*/
+/*#DC7726*/
+/*#DDC077*/
+/*#57896A*/
+/*#4A545D*/
